@@ -1,7 +1,12 @@
 img {
   width: 100%;
-  max-width: 25em;
   display: block;
+  max-width: 25em;
+}
+
+.img {
+  max-width: 25em;
+  padding-top: 2em;
 }
 
 html {
@@ -11,6 +16,10 @@ html {
 
 div {
   display: inline-block;
+  padding: 1em;
+  text-align: left;
+  vertical-align: middle;
+  max-width: 25em;
 }
 
 *, *::before, *::after {
@@ -20,26 +29,22 @@ div {
 body {
   font-family: Lato, sans-serif;
   line-height: 1.5;
-  vertical-align: center;
   margin: 0;
 }
 
 section {
-  display: inline-block;
-  margin: 1.5rem;
-  vertical-align: center;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
-h1 {
+h2 {
   margin: 0;
   padding-top: .5em;
-  text-align: center;
+  text-align: left;
 }
 
 .text {
-  max-width: 25em;
-  padding: .5em;
-  vertical-align: middle;
   text-align: left;
 }
 
@@ -48,7 +53,7 @@ h1 {
   padding: .5em;
   text-decoration: none;
   border: 3px solid #333;
-  text-align: left;
+  text-align: center;
 }
 
 .btn:hover {
