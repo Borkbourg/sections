@@ -1,17 +1,58 @@
 img {
   width: 100%;
   max-width: 25em;
+  display: block;
+}
+
+html {
+  vertical-align: center;
+  box-sizing: border-box;
+}
+
+div {
   display: inline-block;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
   font-family: Lato, sans-serif;
+  line-height: 1.5;
+  vertical-align: center;
+  margin: 0;
+}
+
+section {
+  display: inline-block;
+  margin: 1.5rem;
+  vertical-align: center;
 }
 
 h1 {
-display: inline-block;
+  margin: 0;
+  padding-top: .5em;
+  text-align: center;
 }
 
 .text {
+  max-width: 25em;
+  padding: .5em;
+  vertical-align: middle;
+  text-align: left;
+}
 
+.btn {
+  color: #666;
+  padding: .5em;
+  text-decoration: none;
+  border: 3px solid #333;
+  text-align: left;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #f2f2f2;
+  text-decoration: none;
 }
